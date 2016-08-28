@@ -1,0 +1,18 @@
+#####################################
+LICENSE for files in day_00 directory
+#####################################
+
+The file ``what_is_an_image.rst`` is copyright Matthew Brett 2015-2016,
+licensed under the Creative Commons attribution 2.0 generic license (CC-by
+2.0): see http://creativecommons.org/licenses/by/2.0/
+
+The file ``ds114_sub009_highres.nii`` is from the ``ds114`` datasets in the
+OpenFMRI project:
+
+* https://openfmri.org/dataset/ds000114
+
+``ds114_sub009_highres.nii`` is an uncompressed version of
+``sub009/anatomy/highres001.nii.gz`` from ds114.
+
+OpenFMRI files are covered by a Public Domain Dedication and License version
+1.0 : http://opendatacommons.org/licenses/pddl/1.0/.

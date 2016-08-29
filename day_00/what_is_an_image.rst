@@ -4,13 +4,11 @@ What is an image?
 
 In this exercise we explore the nature of NIfTI images.
 
-First open a terminal, and change directory to your home directory
-with: cd /home/'my_name' where you replace 'my_name' by your name 
-if you did the git clone in your home directory, or cd to the 
-directory where you did the "git clone".
-
-Then, launch python in your terminal. You should get the python
-prompt: >>>
+The Python commands here are written with a ``>>>`` prefix.  The ``>>>`` is
+the prompt in the Python interactive console.  This is the prompt you get if
+you type ``python3`` at the shell prompt.  We suggest that you use the
+IPython_ console instead of the Python console to type your commands.  Get
+the IPython terminal by installing IPython with pip_, then typing ``ipython``.
 
 First we will have a look at Python strings. Here is a variable called
 ``my_string`` with value "PNA is hard but fair"
@@ -137,9 +135,9 @@ How big is this file in terms of bytes? Can you find out from the
 
     >>> n_bytes = len(contents)
 
-If 1 megabyte (MiB) (http://en.wikipedia.org/wiki/Megabyte) is size 1024
-\* 1024, what is the file size in MiB? (Hint - the right answer is
-between 0 and 100).
+If 1 mebibyte (MiB) (http://en.wikipedia.org/wiki/Megabyte) is size 1024 \*
+1024, what is the file size in MiB? (Hint - the right answer is between 0 and
+100).
 
 .. nbplot::
 

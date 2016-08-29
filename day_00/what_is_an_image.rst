@@ -4,7 +4,13 @@ What is an image?
 
 In this exercise we explore the nature of NIfTI images.
 
-First open a terminal, and change directory to 
+First open a terminal, and change directory to your home directory
+with: cd /home/'my_name' where you replace 'my_name' by your name 
+if you did the git clone in your home directory, or cd to the 
+directory where you did the "git clone".
+
+Then, launch python in your terminal. You should get the python
+prompt: >>>
 
 First we will have a look at Python strings. Here is a variable called
 ``my_string`` with value "PNA is hard but fair"
@@ -43,8 +49,8 @@ We can see how many characters the string has with the ``len`` function:
 .. nbplot::
 
     >>> # The last character of the string (don't forget indexing starts at 0)
-    >>> print(my_string[19])
-    d
+    >>> print(my_string[28])
+    r
 
 Now we introduce string *slicing*. This is where you take some sequential
 characters from the string, using the colon (``:``) between the square
@@ -131,7 +137,7 @@ How big is this file in terms of bytes? Can you find out from the
 
     >>> n_bytes = len(contents)
 
-If 1 mebibyte (MiB) (http://en.wikipedia.org/wiki/Megabyte) is size 1024
+If 1 megabyte (MiB) (http://en.wikipedia.org/wiki/Megabyte) is size 1024
 \* 1024, what is the file size in MiB? (Hint - the right answer is
 between 0 and 100).
 

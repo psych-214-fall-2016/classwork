@@ -62,9 +62,9 @@
 # None,0,1500,yellow_square
 #
 # Hints:
-#   When you read lines from a text file, they end with a carriage return;
-#   Remember split;
-#   String are not numbers;
+#  * when you read lines from a text file, they end with a carriage return;
+#  * remember split;
+#  * strings are not numbers.
 
 
 # Bonus exercise: Have a look at the pandas package especially the read_csv

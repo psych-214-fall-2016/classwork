@@ -1,0 +1,22 @@
+###################################
+LICENSE for files in day3 directory
+###################################
+
+These files:
+
+spm_funcs.py
+solution/spm_funcs.py
+get_global_signals.m
+
+are copyright Matthew Brett 2015-2016, released to the public with the
+Unlicense (see the UNLICENSE file in the directory containing this one).
+
+The BOLD data ``ds107_sub012_t1r2.nii`` comes from the OpenFMRI project dataset
+``ds107``: https://openfmri.org/dataset/ds000107 . It is a decompressed and
+renamed copy of ``sub012/BOLD/task001_run002/bold.nii.gz``.
+
+Files from the ``ds107`` dataset are covered by a Public Domain Dedication and
+License version 1.0 : http://opendatacommons.org/licenses/pddl/1.0/
+
+The ``global_signals.txt`` is the result of running ``get_global_signals.m``
+over the ``ds107_sub012_t1r2.nii``.  This is also covered by the PDDL 1.0 license above.

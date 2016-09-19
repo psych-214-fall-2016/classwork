@@ -1,8 +1,9 @@
 """
 This will be your new module defining SPM-like functions
 
-Here you want the get_spm_globals function from the earlier exercise, with
-anything that function imports and other definitions that the function needs.
+Here you want the get_spm_globals function from the earlier
+``four_dimensions_exercise``, with anything that function imports and other
+definitions that the function needs.
 
 When you are done, you should be able to run this spm_funcs.py module as a
 script and see the script print a message beginning with "OK".
@@ -11,7 +12,7 @@ You run this module as a script like this::
 
     python3 spm_funcs.py
 
-or, in IPython (recommended)::
+or better, in IPython::
 
     %run spm_funcs.py
 """

@@ -8,8 +8,16 @@
 # exercises.
 PYTHON ?= python3
 
+LAB_TOOLS = lab-tools
+PROC_SOLUTIONS = $(LAB_TOOLS)/proc_solutions.py
+
+write-check-solutions:
+	$(PYTHON) $(PROC_SOLUTIONS) write-solutions
+	$(PYTHON) -m pytest pearson/test_pearson*.py
+	$(PYTHON) $(PROC_SOLUTIONS) write
+
 check:
-	$(PYTHON) lab-tools/proc_solutions.py check
+	$(PYTHON) $(PROC_SOLUTIONS) check
 
 write:
-	$(PYTHON) lab-tools/proc_solutions.py write
+	$(PYTHON) $(PROC_SOLUTIONS) write

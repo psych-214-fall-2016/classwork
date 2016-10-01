@@ -7,11 +7,11 @@ Run with::
 
 This is a test module.
 
-It is designed to be run the with the "nose" testing package (via the
-"nosetests" script.
+It is designed to be run the with the "pytest" testing package (via the
+"py.test" script.
 
-Nose will look for any functions with "test" in their names, and run them.
-Nose reports any errors, or any failures.
+pytest will look for any functions with "test" in their names, and run them.
+pytest reports any errors, or any failures.
 
 A failure is where one of the test conditions run with an "assert" command
 fails.  For example, if I did:
